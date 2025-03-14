@@ -11,7 +11,47 @@
 </head>
 
 <body>
-	<div class="container">
+
+	<header class="header">
+		<div class="header__inner container">
+			<a class="header__logo logo" href="/" aria-label="logo link">
+				<img class="logo__image" src="/images/svg/logo.svg" alt="Positivus" width="220" height="36" loading="lazy">
+			</a>
+
+			<nav class="header__nemu hidden-mobile">
+				<ul class="header__nemu-list">
+					<li class="header__nemu-item">
+						<a class="header__nemu-link" href="/" aria-label="Go to block about us">About&nbsp;us</a>
+					</li>
+					<li class="header__nemu-item">
+						<a class="header__nemu-link" href="/" aria-label="Go to block services">Services</a>
+					</li>
+					<li class="header__nemu-item">
+						<a class="header__nemu-link" href="/" aria-label="Go to block use cases">Use&nbsp;Cases</a>
+					</li>
+					<li class="header__nemu-item">
+						<a class="header__nemu-link" href="/" aria-label="Go to block pricing">Pricing</a>
+					</li>
+					<li class="header__nemu-item">
+						<a class="header__nemu-link" href="/" aria-label="Go to block blog">Blog</a>
+					</li>
+				</ul>
+			</nav>
+			<button class="header__button button button--transparent hidden-mobile" type="button">
+				Request&nbsp;a&nbsp;quote
+			</button>
+
+			<button class="button__burger-menu burger-button visible-mobile" type="button"
+				onclick="mobileOverlay.showModal()">
+				<span class="visually-hidden">Open navigation menu</span>
+			</button>
+
+		</div>
+	</header>
+
+
+
+	<!-- <footer class="footer container">
 		<h1 class="test-text">Hello world!</h1>
 		<h2>Hello world!</h2>
 		<h3>Hello world!</h3>
@@ -27,8 +67,7 @@
 		<img class="image hidden-mobile" src="/src/assets/images/javascript.svg" width="300" height="300"
 			alt="Image form vite build" loading="lazy">
 		<a class="link" href="/" aria-label="Test link">LINK</a>
-	</div>
-
+	</footer> -->
 	<script type="module" src="/src/js/main.js"></script>
 </body>
 
