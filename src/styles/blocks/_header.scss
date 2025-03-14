@@ -1,0 +1,19 @@
+body {
+  background-color: aqua;
+  color: red;
+}
+.test-text {
+  @include fluid-text(50, 16);
+  font-family: var(--font-family-base);
+}
+.svg-image {
+  margin-inline: auto;
+  border-radius: 50%;
+}
+.image {
+  margin-inline: auto;
+  border-radius: 50%;
+}
+.link {
+  @include reset-link;
+}

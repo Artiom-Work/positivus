@@ -1,17 +1,6 @@
+@import "./base/_normolize.scss";
 @import "./base/_fonts.scss";
-
-body {
-  background-color: aqua;
-}
-.test-text {
-  font-size: 40px;
-  font-family: "Space Grotesk";
-}
-.svg-image {
-  margin-inline: auto;
-  border-radius: 50%;
-}
-.image {
-  margin-inline: auto;
-  border-radius: 50%;
-}
+@import "./base/_mixins.scss";
+@import "./base/_variables.scss";
+//blocks
+@import "./blocks/_header.scss";
