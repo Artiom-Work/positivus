@@ -50,23 +50,33 @@
 	</header>
 
 
+	<dialog class="mobile-overlay visible-mobile" id="mobileOverlay">
+		<form class="mobile-overlay__close-button-wrapper" method="dialog">
+			<button class="mobile-overlay__close-button cross-button" type="submit">
+				<span class="visually-hidden">Close navigation menu</span>
+			</button>
+		</form>
 
-	<h1 class="test-text">Hello world!</h1>
-	<h2>Hello world!</h2>
-	<h3>Hello world!</h3>
-	<h4>Hello world!</h4>
-
-	<p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Harum laborum enim dignissimos at tempore placeat
-		dolore, optio ducimus maiores temporibus? Quo, dolore similique? Iusto aliquid mollitia corrupti hic. Illum, vero.
-	</p>
-
-	<img class="svg-image visible-mobile" src="images/svg/vite.svg" width="200" height="200" alt="Image from pulbic"
-		loading="lazy">
-	<h3 class="visually-hidden"> МЕНЯ НЕ ДОЛЖНО БЫТЬ ВИДНО</h3>
-	<img class="image hidden-mobile" src="/src/assets/images/javascript.svg" width="300" height="300"
-		alt="Image form vite build" loading="lazy">
-	<a class="link" href="/" aria-label="Test link">LINK</a>
-	</footer> -->
+		<div class="mobile-overlay__body">
+			<ul class="mobile-overlay__list">
+				<li class="mobile-overlay__item">
+					<a class="mobile-overlay__link" href="/" aria-label="Go to block about us">About&nbsp;us</a>
+				</li>
+				<li class="mobile-overlay__item">
+					<a class="mobile-overlay__link" href="/" aria-label="Go to block services">Services</a>
+				</li>
+				<li class="mobile-overlay__item">
+					<a class="mobile-overlay__link" href="/" aria-label="Go to block use cases">Use&nbsp;Cases</a>
+				</li>
+				<li class="mobile-overlay__item">
+					<a class="mobile-overlay__link" href="/" aria-label="Go to block pricing">Pricing</a>
+				</li>
+				<li class="mobile-overlay__item">
+					<a class="mobile-overlay__link" href="/" aria-label="Go to block blog">Blog</a>
+				</li>
+			</ul>
+		</div>
+	</dialog>
 	<script type="module" src="/src/js/main.js"></script>
 </body>
 
