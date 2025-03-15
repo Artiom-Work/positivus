@@ -24,4 +24,11 @@
   --button-hight: 68px;
 
   --transition-duration: 0.2s;
+
+  @include desktop-media {
+    --container-padding-y: 50px;
+  }
+  @include mobile-media {
+    --container-padding-y: 30px;
+  }
 }
