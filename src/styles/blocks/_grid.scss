@@ -18,4 +18,13 @@
       --gridColumns: 1;
     }
   }
+  &--3 {
+    @include desktop-media {
+      --gridColumns: 2;
+    }
+
+    @include mobile-media {
+      --gridColumns: 1;
+    }
+  }
 }

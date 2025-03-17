@@ -1,0 +1,13 @@
+.team {
+  display: flex;
+  flex-direction: column;
+  row-gap: 40px;
+  &__button {
+    min-width: 270px;
+    align-self: end;
+
+    @include mobile-s-media {
+      width: 100%;
+    }
+  }
+}
