@@ -1,8 +1,4 @@
-# positivus
-
-[link for to watch project]()
-
-# $\color{lightgreen}\textsf{Posotivus}$
+# $\color{lightgreen}\textsf{Positivus}$
 
 $\color{limegreen}\text{Учебная работа}$
 
