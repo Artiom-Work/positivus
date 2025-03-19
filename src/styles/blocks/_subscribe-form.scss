@@ -1,0 +1,15 @@
+.subscribe-form {
+  padding: 58px 40px;
+  background-color: var(--color-gray-alt);
+  border-radius: var(--border-radius);
+  display: flex;
+  column-gap: 20px;
+
+  @include desktop-media {
+    flex-direction: column;
+    row-gap: 22px;
+    padding: 30px;
+    width: 100%;
+    max-width: 450px;
+  }
+}
